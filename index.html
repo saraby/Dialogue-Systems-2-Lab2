@@ -51,6 +51,7 @@
       window.talaSpeechState = event.detail;
       if (window.talaSpeechState.context.tdmAll) {
          console.debug("Plan:", window.talaSpeechState.context.tdmAll.context.plan);
+         console.debug("Facts:", window.talaSpeechState.context.tdmAll.context.facts);
          console.debug("Moves:", window.talaSpeechState.context.tdmAll.output.moves);
        }
   }
