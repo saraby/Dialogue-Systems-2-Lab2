@@ -50,8 +50,9 @@
   const listener2 = (event) => {
       window.talaSpeechState = event.detail;
       if (window.talaSpeechState.context.tdmAll) {
-         console.debug("Plan:", window.talaSpeechState.context.tdmAll.context.plan);
+         console.debug("Expected Input:", window.talaSpeechState.context.tdmAll.context.expected_input);
          console.debug("Facts:", window.talaSpeechState.context.tdmAll.context.facts);
+         console.debug("Plan:", window.talaSpeechState.context.tdmAll.context.plan);
          console.debug("Moves:", window.talaSpeechState.context.tdmAll.output.moves);
        }
   }
