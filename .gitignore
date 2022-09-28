@@ -132,3 +132,4 @@ dmypy.json
 grammar/build/
 .tala/
 logs/
+.idea/
