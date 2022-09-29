@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service_interface>
+
+    <query name="current_temperature">
+        <parameters>
+            <parameter predicate="selected_city" format="value" />
+            <parameter predicate="selected_country" format="value" />
+            <parameter predicate="preferred_unit" format="value" optional="true" />
+        </parameters>
+        <target>
+            <http endpoint="http://ddds-http-service/get_temp" />
+        </target>
+    </query>
+
+    <query name="current_weather">
+        <parameters>
+            <parameter predicate="selected_city" format="value" />
+            <parameter predicate="selected_country" format="value" />
+        </parameters>
+        <target>
+            <http endpoint="http://ddds-http-service/get_weather" />
+        </target>
+    </query>
+
+</service_interface>

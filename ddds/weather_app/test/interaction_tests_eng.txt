@@ -1,0 +1,45 @@
+--- main menu
+U> How much is the temperature
+S> In what city?
+U> London
+S> In which country?
+U> UK
+S> The temperature is * degrees.
+
+--- asking the temperature (incremental)
+U> I want to know the temperature
+S> In what city?
+U> London
+S> In which country?
+U> UK
+S> The temperature is * degrees.
+
+--- asking the temperature (one-shot)
+U> What is the temperature in Gothenburg Sweden
+S> The temperature is * degrees.
+
+--- asking the temperature (overanswering)
+U> Can you give me the temperature
+S> In what city?
+U> Gothenburg Sweden
+S> The temperature is * degrees.
+
+
+--- asking the weather (incremental)
+U> I want to know the weather
+S> In what city?
+U> London
+S> In which country?
+U> UK
+S> The weather is *.
+
+--- asking the weather (one-shot)
+U> How is the weather in Gothenburg Sweden
+S> The weather is *.
+
+--- asking the weather (overanswering)
+U> Can you tell me about the weather
+S> In what city?
+U> Gothenburg Sweden
+S> The weather is *.
+
