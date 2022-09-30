@@ -4,171 +4,412 @@ nlu:
 - intent: question::current_temperature
   examples: |
     - What is the temperature
-    - What is the temperature in [Avellaneda](sort.city) [Zambia](sort.country)
-    - What is the temperature in [Beyşehir](sort.city) [Senegal](sort.country)
-    - What is the temperature in [Bitterfeld-Wolfen](sort.city) [Vietnam](sort.country)
-    - What is the temperature in [Fairview Heights](sort.city) [Eswatini](sort.country)
-    - What is the temperature in [Granada](sort.city) [Equatorial Guinea](sort.country)
-    - What is the temperature in [Motozintla](sort.city) [Vietnam](sort.country)
-    - What is the temperature in [Pátra](sort.city) [Serbia](sort.country)
-    - What is the temperature in [P’ot’i](sort.city) [Grenada](sort.country)
-    - What is the temperature in [Salto de Pirapora](sort.city) [Argentina](sort.country)
-    - What is the temperature in [Shāhreẕā](sort.city) [Hungary](sort.country)
+    - What is the temperature in [An Nimāş](sort.city) [Montenegro](sort.country)
+    - What is the temperature in [Chhota Udepur](sort.city) [Turkmenistan](sort.country)
+    - What is the temperature in [Georgiyevsk](sort.city) [Namibia](sort.country)
+    - What is the temperature in [Grigny](sort.city) [Antigua and Barbuda](sort.country)
+    - What is the temperature in [Kampong Baharu Balakong](sort.city) [Cayman Islands](sort.country)
+    - What is the temperature in [Lilienthal](sort.city) [Vatican](sort.country)
+    - What is the temperature in [New Orleans](sort.city) [Kyrgyzstan](sort.country)
+    - What is the temperature in [Tanabi](sort.city) [Niger](sort.country)
+    - What is the temperature in [Uzhhorod](sort.city) [Vatican](sort.country)
+    - What is the temperature in [Villa Dolores](sort.city) [Timor-Leste](sort.country)
+    - What is the temperature in [Chāmpa](sort.city) [Guatemala](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - What is the temperature in [Ciudad Sabinas](sort.city) [Russia](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - What is the temperature in [Danville](sort.city) [Ireland](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - What is the temperature in [Farakka](sort.city) [United Kingdom](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - What is the temperature in [Hindaun](sort.city) [Libya](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - What is the temperature in [Lafayette](sort.city) [Zimbabwe](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - What is the temperature in [Lieto](sort.city) [China](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - What is the temperature in [Peringat](sort.city) [Argentine Republic](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - What is the temperature in [Safety Harbor](sort.city) [Hellenic Republic](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - What is the temperature in [Springfield](sort.city) [India](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
     - How much is the temperature
-    - How much is temperature in [Banhā](sort.city) [Czechia](sort.country)
-    - How much is temperature in [Beltsville](sort.city) [China](sort.country)
-    - How much is temperature in [Boende](sort.city) [Mauritius](sort.country)
-    - How much is temperature in [Giyani](sort.city) [Czechia](sort.country)
-    - How much is temperature in [Marktoberdorf](sort.city) [America](sort.country)
-    - How much is temperature in [Mezőkövesd](sort.city) [Bangladesh](sort.country)
-    - How much is temperature in [Nāgarpur](sort.city) [Slovak Republic](sort.country)
-    - How much is temperature in [Raisen](sort.city) [Thailand](sort.country)
-    - How much is temperature in [Talence](sort.city) [Argentine Republic](sort.country)
-    - How much is temperature in [Timbiras](sort.city) [Ireland](sort.country)
-    - How much is the temperature in [Ar Raqqah](sort.city) [Lithuania](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - How much is the temperature in [Bandar Seri Begawan](sort.city) [Fiji](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - How much is the temperature in [Jincheng](sort.city) [Singapore](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - How much is the temperature in [Kerava](sort.city) [Russia](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - How much is the temperature in [Livorno](sort.city) [Maldives](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - How much is the temperature in [Pindobaçu](sort.city) [Namibia](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - How much is the temperature in [Roeselare](sort.city) [United Arab Emirates](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - How much is the temperature in [Santiago de Compostela](sort.city) [Puerto Rico](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - How much is the temperature in [Tandaltī](sort.city) [El Salvador](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - How much is the temperature in [Yuma](sort.city) [Haiti](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - How much is the temperature in [Altglienicke](sort.city) [Faroe Islands](sort.country)
+    - How much is the temperature in [Bellechasse Regional County Municipality](sort.city) [Israel](sort.country)
+    - How much is the temperature in [Blythe](sort.city) [United Arab Emirates](sort.country)
+    - How much is the temperature in [Humble](sort.city) [Liberia](sort.country)
+    - How much is the temperature in [Mahāsamund](sort.city) [Bhutan](sort.country)
+    - How much is the temperature in [Manhuaçu](sort.city) [Moldova](sort.country)
+    - How much is the temperature in [Ramallah](sort.city) [New Caledonia](sort.country)
+    - How much is the temperature in [Redford](sort.city) [Latvia](sort.country)
+    - How much is the temperature in [Sasayama](sort.city) [Jamaica](sort.country)
+    - How much is the temperature in [Viborg](sort.city) [Uganda](sort.country)
+    - How much is the temperature in [Barking](sort.city) [Angola](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - How much is the temperature in [Catania](sort.city) [Malaysia](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - How much is the temperature in [Hajnówka](sort.city) [Singapore](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - How much is the temperature in [Harīpur](sort.city) [Bulgaria](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - How much is the temperature in [Hirekerūr](sort.city) [Armenia](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - How much is the temperature in [Paternò](sort.city) [Senegal](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - How much is the temperature in [San Antonio Oeste](sort.city) [Thailand](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - How much is the temperature in [Springdale](sort.city) [Abkhazia](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - How much is the temperature in [Watari](sort.city) [Liechtenstein](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - How much is the temperature in [Yeşilli](sort.city) [Mexico](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
     - Can you give me the temperature
-    - Can you give me the temperature in [Bolesławiec](sort.city) [Portuguese Republic](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Can you give me the temperature in [Budapest IX. kerület](sort.city) [South Sudan](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Can you give me the temperature in [Delaware](sort.city) [Kenya](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Can you give me the temperature in [Deyang](sort.city) [Peru](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Can you give me the temperature in [Fujioka](sort.city) [Maldives](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - Can you give me the temperature in [Ostrów Wielkopolski](sort.city) [Sri Lanka](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Can you give me the temperature in [San Isidro](sort.city) [Ireland](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Can you give me the temperature in [Toledo](sort.city) [Sri Lanka](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Can you give me the temperature in [eSikhawini](sort.city) [Oman](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - Can you give me the temperature in [Ōdate](sort.city) [South Sudan](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Can you give me the temperature in [Ar Rumaythīyah](sort.city) [England](sort.country)
+    - Can you give me the temperature in [Arroyo Naranjo](sort.city) [Faroe Islands](sort.country)
+    - Can you give me the temperature in [Basi](sort.city) [Turkmenistan](sort.country)
+    - Can you give me the temperature in [Bristol](sort.city) [Romania](sort.country)
+    - Can you give me the temperature in [Ciudad Obregón](sort.city) [Anguilla](sort.country)
+    - Can you give me the temperature in [Elmadağ](sort.city) [Malaysia](sort.country)
+    - Can you give me the temperature in [Kempten (Allgäu)](sort.city) [Myanmar](sort.country)
+    - Can you give me the temperature in [Montbéliard](sort.city) [Britain](sort.country)
+    - Can you give me the temperature in [Mühldorf](sort.city) [Turks and Caicos Islands](sort.country)
+    - Can you give me the temperature in [Shakhtars’k](sort.city) [Cambodia](sort.country)
+    - Can you give me the temperature in [Dhanot](sort.city) [Taiwan](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Can you give me the temperature in [Dumjor](sort.city) [Turkey](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Can you give me the temperature in [Gajraula](sort.city) [Wales](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Can you give me the temperature in [Ganj Dundwāra](sort.city) [Austria](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Can you give me the temperature in [Lakinsk](sort.city) [Argentina](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Can you give me the temperature in [Maebashi](sort.city) [Antarctica](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Can you give me the temperature in [Meerssen](sort.city) [Britain](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Can you give me the temperature in [Senden](sort.city) [Republic of Korea](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Can you give me the temperature in [Vrilissia](sort.city) [Malaysia](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Can you give me the temperature in [Wuchuan](sort.city) [Fiji](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
     - Fetch me the temperature
+    - Fetch me the temperature in [Ada](sort.city) [Dominican Republic](sort.country)
+    - Fetch me the temperature in [Caraballeda](sort.city) [Qatar](sort.country)
+    - Fetch me the temperature in [Daly City](sort.city) [Pakistan](sort.country)
+    - Fetch me the temperature in [Jalālpur](sort.city) [Armenia](sort.country)
+    - Fetch me the temperature in [Khimki](sort.city) [Andorra](sort.country)
+    - Fetch me the temperature in [Maxixe](sort.city) [Andorra](sort.country)
+    - Fetch me the temperature in [Petapa](sort.city) [Pakistan](sort.country)
+    - Fetch me the temperature in [Sangamner](sort.city) [Laos](sort.country)
+    - Fetch me the temperature in [Santa Clara](sort.city) [Armenia](sort.country)
+    - Fetch me the temperature in [Szczecinek](sort.city) [Ghana](sort.country)
+    - Fetch me the temperature in [Gogrial](sort.city) [Haiti](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Fetch me the temperature in [Hadjout](sort.city) [republic of the Congo](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Fetch me the temperature in [Inglewood](sort.city) [Kosovo](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Fetch me the temperature in [Jāmuria](sort.city) [Peru](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Fetch me the temperature in [Kohāt](sort.city) [Burundi](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Fetch me the temperature in [Nāravārikuppam](sort.city) [Serbia](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Fetch me the temperature in [Pran Buri](sort.city) [Senegal](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Fetch me the temperature in [Qinggang](sort.city) [Lebanon](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Fetch me the temperature in [Saint Joseph](sort.city) [Ivory Coast](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Fetch me the temperature in [Shāhābād](sort.city) [Czech Republic](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
     - Get the temperature
-    - Get the temperature in [Brooklyn](sort.city) [San Marino](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Get the temperature in [Fukuechō](sort.city) [Papua New Guinea](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Get the temperature in [Gambiran Satu](sort.city) [Morocco](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Get the temperature in [Le Mans](sort.city) [Gabon](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Get the temperature in [Madera](sort.city) [Tanzania](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Get the temperature in [Nümbrecht](sort.city) [Hellas](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Get the temperature in [Pacho](sort.city) [Denmark](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - Get the temperature in [Panruti](sort.city) [Gabonese Republic](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Get the temperature in [Rutland](sort.city) [Gabonese Republic](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - Get the temperature in [Tefé](sort.city) [Papua New Guinea](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Get the temperature in [Albi](sort.city) [Serbia](sort.country)
+    - Get the temperature in [General Roca](sort.city) [Gibraltar](sort.country)
+    - Get the temperature in [Hollywood](sort.city) [Ethiopia](sort.country)
+    - Get the temperature in [Kibakwe](sort.city) [Czechia](sort.country)
+    - Get the temperature in [Lansdale](sort.city) [Mayotte](sort.country)
+    - Get the temperature in [Moram](sort.city) [Poland](sort.country)
+    - Get the temperature in [San Blas](sort.city) [Brazil](sort.country)
+    - Get the temperature in [Taylors Lakes](sort.city) [Kazakhstan](sort.country)
+    - Get the temperature in [Upland](sort.city) [Hungary](sort.country)
+    - Get the temperature in [Zhangjiagang](sort.city) [Qatar](sort.country)
+    - Get the temperature in [Dayrūţ](sort.city) [Ireland](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Get the temperature in [Dādhar](sort.city) [Turkmenistan](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Get the temperature in [Gazojak](sort.city) [Taiwan](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Get the temperature in [Guruvāyūr](sort.city) [Kyrgyzstan](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Get the temperature in [Malaut](sort.city) [Guinea](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Get the temperature in [Norco](sort.city) [Latvia](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Get the temperature in [Prizren](sort.city) [Ireland](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Get the temperature in [Surovikino](sort.city) [Mali](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Get the temperature in [Westmont](sort.city) [Sri Lanka](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Get the temperature in [‘Amrān](sort.city) [Iraq](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
     - I want to know the temperature
+    - I want to know the temperature in [Bois-Colombes](sort.city)[Bahamas](sort.country)
+    - I want to know the temperature in [Chhāta](sort.city)[Iceland](sort.country)
+    - I want to know the temperature in [Chon Buri](sort.city)[Oman](sort.country)
+    - I want to know the temperature in [Dharān Bāzār](sort.city)[Morocco](sort.country)
+    - I want to know the temperature in [El Estor](sort.city)[Palau](sort.country)
+    - I want to know the temperature in [Pirajuí](sort.city)[Gabon](sort.country)
+    - I want to know the temperature in [Ranst](sort.city)[England](sort.country)
+    - I want to know the temperature in [Semiluki](sort.city)[Burkina Faso](sort.country)
+    - I want to know the temperature in [Staines](sort.city)[Tanzania](sort.country)
+    - I want to know the temperature in [Victoria](sort.city)[Comoros](sort.country)
+    - I want to know the temperature in [Alpharetta](sort.city)[Colombia](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I want to know the temperature in [Brie-Comte-Robert](sort.city)[Nigeria](sort.country)in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I want to know the temperature in [Galaţi](sort.city)[Laos](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I want to know the temperature in [Napier](sort.city)[North Korea](sort.country)in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I want to know the temperature in [Nordhausen](sort.city)[Faroe Islands](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I want to know the temperature in [Remchi](sort.city)[Slovakia](sort.country)in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I want to know the temperature in [San Vicente de Cañete](sort.city)[Nicaragua](sort.country)in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I want to know the temperature in [Southfield](sort.city)[Brazil](sort.country)in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I want to know the temperature in [Toluca](sort.city)[Panama](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I want to know the temperature in [Ystad](sort.city)[Czechia](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
     - Do you happen to know the temperature
-    - Do you happen to know the temperature in [Chākan](sort.city) [Haiti](sort.country)
-    - Do you happen to know the temperature in [Eagle Mountain](sort.city) [Kazakhstan](sort.country)
-    - Do you happen to know the temperature in [Guanambi](sort.city) [Nepal](sort.country)
-    - Do you happen to know the temperature in [Huber Heights](sort.city) [Croatia](sort.country)
-    - Do you happen to know the temperature in [Leverkusen](sort.city) [Botswana](sort.country)
-    - Do you happen to know the temperature in [Maba](sort.city) [Montserrat](sort.country)
-    - Do you happen to know the temperature in [Patos de Minas](sort.city) [Persia](sort.country)
-    - Do you happen to know the temperature in [Puerto Princesa](sort.city) [Puerto Rico](sort.country)
-    - Do you happen to know the temperature in [San Luis](sort.city) [Burkina Faso](sort.country)
-    - Do you happen to know the temperature in [Six-Fours-les-Plages](sort.city) [Republic of Korea](sort.country)
-    - Fetch me the temperature in [Abdulino](sort.city) [Pitcairn Islands](sort.country)
-    - Fetch me the temperature in [Azrou](sort.city) [Comoros](sort.country)
-    - Fetch me the temperature in [Kamifukuoka](sort.city) [Hellas](sort.country)
-    - Fetch me the temperature in [Kitami](sort.city) [Aruba](sort.country)
-    - Fetch me the temperature in [Les Ulis](sort.city) [Mexico](sort.country)
-    - Fetch me the temperature in [Neratovice](sort.city) [Australia](sort.country)
-    - Fetch me the temperature in [Sagua la Grande](sort.city) [Jersey](sort.country)
-    - Fetch me the temperature in [Sakété](sort.city) [Isle of Man](sort.country)
-    - Fetch me the temperature in [Szczecinek](sort.city) [Kyrgyzstan](sort.country)
-    - Fetch me the temperature in [Tacoma](sort.city) [Libya](sort.country)
+    - Do you happen to know the temperature in [Alphen aan den Rijn](sort.city) [Afghanistan](sort.country)
+    - Do you happen to know the temperature in [Basi](sort.city) [USA](sort.country)
+    - Do you happen to know the temperature in [Crépy-en-Valois](sort.city) [Antarctica](sort.country)
+    - Do you happen to know the temperature in [Dhuliān](sort.city) [Ireland](sort.country)
+    - Do you happen to know the temperature in [María la Baja](sort.city) [Slovakia](sort.country)
+    - Do you happen to know the temperature in [Nanjing](sort.city) [Liberia](sort.country)
+    - Do you happen to know the temperature in [Olsberg](sort.city) [United Kingdom](sort.country)
+    - Do you happen to know the temperature in [Pasinler](sort.city) [Vanuatu](sort.country)
+    - Do you happen to know the temperature in [Tigwav](sort.city) [Kazakhstan](sort.country)
+    - Do you happen to know the temperature in [Vargem Grande](sort.city) [Norfolk Island](sort.country)
+    - Do you happen to know the temperature in [Brest](sort.city)[Lesotho](sort.country)in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Do you happen to know the temperature in [DeSoto](sort.city)[British Virgin Islands](sort.country)in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Do you happen to know the temperature in [Hayama](sort.city)[Guinea](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Do you happen to know the temperature in [Iaşi](sort.city)[Guatemala](sort.country)in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Do you happen to know the temperature in [Manhumirim](sort.city)[Poland](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Do you happen to know the temperature in [Muhoroni](sort.city)[Northern Mariana Islands](sort.country)in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Do you happen to know the temperature in [Paulista](sort.city)[Nauru](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Do you happen to know the temperature in [Sisŏphŏn](sort.city)[Vatican City](sort.country)in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Do you happen to know the temperature in [Staryy Malgobek](sort.city)[Guadeloupe](sort.country)in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Do you happen to know the temperature in [Tuscaloosa](sort.city)[Gabon](sort.country)in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I would like to know the temperature
+    - I would like to know the temperature in [Akbarābād](sort.city) [Costa Rica](sort.country)
+    - I would like to know the temperature in [Kotamangalam](sort.city) [Costa Rica](sort.country)
+    - I would like to know the temperature in [Mae Sai](sort.city) [Burundi](sort.country)
+    - I would like to know the temperature in [Ostrów Mazowiecka](sort.city) [Angola](sort.country)
+    - I would like to know the temperature in [Popovo](sort.city) [Czechia](sort.country)
+    - I would like to know the temperature in [Pār Naogaon](sort.city) [Martinique](sort.country)
+    - I would like to know the temperature in [Saint Paul](sort.city) [Isle of Man](sort.country)
+    - I would like to know the temperature in [San Cristóbal](sort.city) [Indonesia](sort.country)
+    - I would like to know the temperature in [Tías](sort.city) [Sierra Leone](sort.country)
+    - I would like to know the temperature in [Veldhoven](sort.city) [Panama](sort.country)
+    - I would like to know the temperature in [Barão de Cocais](sort.city) [Estonia](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I would like to know the temperature in [Graham](sort.city) [Britain](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I would like to know the temperature in [Jieshou](sort.city) [Peru](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I would like to know the temperature in [Matola](sort.city) [Bulgaria](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I would like to know the temperature in [Muzaffargarh](sort.city) [Curacao](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I would like to know the temperature in [Niitsu-honchō](sort.city) [New Caledonia](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I would like to know the temperature in [Rambouillet](sort.city) [Turkey](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I would like to know the temperature in [Ranong](sort.city) [Transnistria](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I would like to know the temperature in [Theunissen](sort.city) [Sudan](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I would like to know the temperature in [Şimleu Silvaniei](sort.city) [Namibia](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Give me the temperature
+    - Give me the temperature in [Bulawayo](sort.city) [Syria](sort.country)
+    - Give me the temperature in [Burgos](sort.city) [Faroe Islands](sort.country)
+    - Give me the temperature in [Desenzano del Garda](sort.city) [Kazakhstan](sort.country)
+    - Give me the temperature in [Elizabeth City](sort.city) [Transnistria](sort.country)
+    - Give me the temperature in [Khowai](sort.city) [Jamaica](sort.country)
+    - Give me the temperature in [Malden](sort.city) [Bosnia and Herzegovina](sort.country)
+    - Give me the temperature in [Neufahrn bei Freising](sort.city) [Botswana](sort.country)
+    - Give me the temperature in [Paso de los Libres](sort.city) [Malta](sort.country)
+    - Give me the temperature in [Saidpur](sort.city) [Vietnam](sort.country)
+    - Give me the temperature in [Shancheng](sort.city) [Japan](sort.country)
+    - Give me the temperature in [Belovo](sort.city) [Egypt](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Give me the temperature in [Bocaiúva](sort.city) [Senegal](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Give me the temperature in [Castelo](sort.city) [Burundi](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Give me the temperature in [Diamantina](sort.city) [American Samoa](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Give me the temperature in [Enugu](sort.city) [Wales](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Give me the temperature in [Juegang](sort.city) [Cuba](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Give me the temperature in [Kobuleti](sort.city) [Swaziland](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Give me the temperature in [Roosevelt](sort.city) [Vatican](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Give me the temperature in [Tibati](sort.city) [Turkey](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Give me the temperature in [Xinhui](sort.city) [Yemen](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Could you tell me the temperature
+    - Could you tell me the temperature in [Abū Zabad](sort.city) [Eswatini](sort.country)
+    - Could you tell me the temperature in [Bloemfontein](sort.city) [Guernsey](sort.country)
+    - Could you tell me the temperature in [Cambridge](sort.city) [Slovenia](sort.country)
+    - Could you tell me the temperature in [Cartaya](sort.city) [Niger](sort.country)
+    - Could you tell me the temperature in [Constanza](sort.city) [Greenland](sort.country)
+    - Could you tell me the temperature in [Faaa](sort.city) [Angola](sort.country)
+    - Could you tell me the temperature in [Gujō](sort.city) [Tonga](sort.country)
+    - Could you tell me the temperature in [Illela](sort.city) [Cyprus](sort.country)
+    - Could you tell me the temperature in [Islington](sort.city) [Eswatini](sort.country)
+    - Could you tell me the temperature in [Salsomaggiore Terme](sort.city) [Uganda](sort.country)
+    - Could you tell me the temperature in [Hebron](sort.city) [Porto Rico](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Could you tell me the temperature in [Ica](sort.city) [Barbados](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Could you tell me the temperature in [Khmel’nyts’kyy](sort.city) [Honduras](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Could you tell me the temperature in [Lunéville](sort.city) [Central African Republic](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Could you tell me the temperature in [Norfolk County](sort.city) [Burkina Faso](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Could you tell me the temperature in [Pasto](sort.city) [Iran](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Could you tell me the temperature in [San Francisco](sort.city) [United States](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Could you tell me the temperature in [Santo Tomas](sort.city) [Serbia](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Could you tell me the temperature in [Villa Santa Rita](sort.city) [Bangladesh](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Could you tell me the temperature in [Wenceslau Braz](sort.city) [Montenegro](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Tell me the temperature
+    - Tell me the temperature in [Alajuela](sort.city) [Ecuador](sort.country)
+    - Tell me the temperature in [Aventura](sort.city) [Scotland](sort.country)
+    - Tell me the temperature in [Chaozhou](sort.city) [Azerbaijan](sort.country)
+    - Tell me the temperature in [Cypress](sort.city) [Abkhazia](sort.country)
+    - Tell me the temperature in [Dankov](sort.city) [Switzerland](sort.country)
+    - Tell me the temperature in [Pantelimon](sort.city) [Lebanon](sort.country)
+    - Tell me the temperature in [Scottsdale](sort.city) [Swaziland](sort.country)
+    - Tell me the temperature in [Sidi Amrane](sort.city) [Angola](sort.country)
+    - Tell me the temperature in [Vélingara](sort.city) [Rwanda](sort.country)
+    - Tell me the temperature in [Ābyek](sort.city) [Russia](sort.country)
+    - Tell me the temperature in [A Coruña](sort.city) [Botswana](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Tell me the temperature in [Alleppey](sort.city) [Cook Islands](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - Tell me the temperature in [Guariba](sort.city) [Jordan](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Tell me the temperature in [Jiutepec](sort.city) [Great Britain](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Tell me the temperature in [La Plata](sort.city) [Venezuela](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Tell me the temperature in [Les Ulis](sort.city) [Guam](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - Tell me the temperature in [Nový Jičín](sort.city) [Bahrain](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Tell me the temperature in [Palencia](sort.city) [Solomon Islands](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Tell me the temperature in [Sibay](sort.city) [Denmark](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - Tell me the temperature in [Triolet](sort.city) [Thailand](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [Citrus Heights](sort.city) [Burkina Faso](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [Copenhagen](sort.city) [Anguilla](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Dingzhou](sort.city) [Tonga](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Galkissa](sort.city) [Croatia](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [Jičín](sort.city) [Chile](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [Kol’chugino](sort.city) [Britain](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [Lower Earley](sort.city) [Seychelles](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [Suket](sort.city) [India](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Udalguri](sort.city) [Ghana](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [Warren](sort.city) [Belize](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [Gokarna](sort.city) [Wales](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [Lampa](sort.city) [Luxembourg](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Maralal](sort.city) [United Kingdom](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [New Corella](sort.city) [Guernsey](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [Orūmīyeh](sort.city) [Russia](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Podgorica](sort.city) [Panama](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [Shirdi](sort.city) [Saudi Arabia](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [Trinidad](sort.city) [Guatemala](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [West Hills](sort.city) [Hellas](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [Zossen](sort.city) [Isle of Man](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Dareda](sort.city) [Hungaria](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Drachten](sort.city) [Benin](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [El Pueblito](sort.city) [Swaziland](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I need to know the temperature in [Ilhabela](sort.city) [Montserrat](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [Iwade](sort.city) [Vanuatu](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Rio Real](sort.city) [Kenya](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [Rosa Zarate](sort.city) [Vietnam](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [South Laurel](sort.city) [British Virgin Islands](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
+    - I need to know the temperature in [Tepoztlán](sort.city) [Lao People's Democratic Republic](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
+    - I need to know the temperature in [West Bridgford](sort.city) [Seychelles](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
 
 - intent: question::current_weather
   examples: |
     - Decribe the weather
-    - Decribe the weather [Belvedere Park](sort.city) [Cuba](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Decribe the weather [Boende](sort.city) [Azerbaijan](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Decribe the weather [Kota Bharu](sort.city) [Philippines](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - Decribe the weather [Marlborough](sort.city) [Bahamas](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Decribe the weather [Normal](sort.city) [Ghana](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - Decribe the weather [Nova Cruz](sort.city) [Bosnia and Herzegovina](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - Decribe the weather [Sopot](sort.city) [Ukraine](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Decribe the weather [Tatsuno](sort.city) [Guinea-Bissau](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Decribe the weather [Tomigusuku](sort.city) [Brazil](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - Decribe the weather [Şaḩam](sort.city) [North Macedonia](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - Do you happen to know the weather in [Andria](sort.city) [Eritrea](sort.country)
-    - Do you happen to know the weather in [Camp Springs](sort.city) [Guinea-Bissau](sort.country)
-    - Do you happen to know the weather in [Ceyhan](sort.city) [Ivory Coast](sort.country)
-    - Do you happen to know the weather in [Igugunu](sort.city) [Iran](sort.country)
-    - Do you happen to know the weather in [Los Patios](sort.city) [Turkmenistan](sort.country)
-    - Do you happen to know the weather in [Lökbatan](sort.city) [Guyana](sort.country)
-    - Do you happen to know the weather in [Machado](sort.city) [republic of the Congo](sort.country)
-    - Do you happen to know the weather in [Musanze](sort.city) [Saudi Arabia](sort.country)
-    - Do you happen to know the weather in [Palagiano](sort.city) [Croatia](sort.country)
-    - Do you happen to know the weather in [Velikiye Luki](sort.city) [Belize](sort.country)
-    - How would you describe the weather in [Deoband](sort.city) [Dominica](sort.country)
-    - How would you describe the weather in [Edina](sort.city) [Niue](sort.country)
-    - How would you describe the weather in [Gainesville](sort.city) [Fiji](sort.country)
-    - How would you describe the weather in [Iida](sort.city) [Egypt](sort.country)
-    - How would you describe the weather in [Kokstad](sort.city) [Scotland](sort.country)
-    - How would you describe the weather in [Radolfzell am Bodensee](sort.city) [Niger](sort.country)
-    - How would you describe the weather in [Segovia](sort.city) [Togo](sort.country)
-    - How would you describe the weather in [Tukwila](sort.city) [Estonia](sort.country)
-    - How would you describe the weather in [Wierden](sort.city) [Sao Tome and Principe](sort.country)
-    - How would you describe the weather in [Ārifwāla](sort.city) [Afghanistan](sort.country)
+    - Decribe the weather in [Atimonan](sort.city) [United Arab Emirates](sort.country)
+    - Decribe the weather in [Gainesville](sort.city) [Bolivia](sort.country)
+    - Decribe the weather in [Kikinda](sort.city) [Mongolia](sort.country)
+    - Decribe the weather in [Madera](sort.city) [Zimbabwe](sort.country)
+    - Decribe the weather in [Malvern East](sort.city) [San Marino](sort.country)
+    - Decribe the weather in [North Vancouver](sort.city) [Aruba](sort.country)
+    - Decribe the weather in [Orangeville](sort.city) [Cameroon](sort.country)
+    - Decribe the weather in [Palmarito Tochapán](sort.city) [Christmas Island](sort.country)
+    - Decribe the weather in [Parkent](sort.city) [Liberia](sort.country)
+    - Decribe the weather in [Sanford](sort.city) [Gabonese Republic](sort.country)
+    - Do you happen to know the weather
+    - Do you happen to know the weather in [Bo Phloi](sort.city) [Brazil](sort.country)
+    - Do you happen to know the weather in [Chakradharpur](sort.city) [Sierra Leone](sort.country)
+    - Do you happen to know the weather in [Chiautempan](sort.city) [Poland](sort.country)
+    - Do you happen to know the weather in [Dakhla](sort.city) [Malta](sort.country)
+    - Do you happen to know the weather in [Lapu-Lapu City](sort.city) [United States](sort.country)
+    - Do you happen to know the weather in [Leninsk](sort.city) [Vatican City](sort.country)
+    - Do you happen to know the weather in [Malakoff](sort.city) [Christmas Island](sort.country)
+    - Do you happen to know the weather in [Mayahi](sort.city) [Hungary](sort.country)
+    - Do you happen to know the weather in [Taldykorgan](sort.city) [Togo](sort.country)
+    - Do you happen to know the weather in [Youngstown](sort.city) [Belgium](sort.country)
+    - How would you describe the weather
+    - How would you describe the weather in [Akbarābād](sort.city) [Vietnam](sort.country)
+    - How would you describe the weather in [Al Qanāţir al Khayrīyah](sort.city) [Norfolk Island](sort.country)
+    - How would you describe the weather in [Beşikdüzü](sort.city) [North Korea](sort.country)
+    - How would you describe the weather in [Bilsi](sort.city) [England](sort.country)
+    - How would you describe the weather in [Budapest IX. kerület](sort.city) [Malaysia](sort.country)
+    - How would you describe the weather in [Chikmagalūr](sort.city) [Sao Tome and Principe](sort.country)
+    - How would you describe the weather in [Ottumwa](sort.city) [Czech Republic](sort.country)
+    - How would you describe the weather in [Saint-Joseph](sort.city) [Armenia](sort.country)
+    - How would you describe the weather in [Shāntipur](sort.city) [Gabonese Republic](sort.country)
+    - How would you describe the weather in [Virac](sort.city) [Hong Kong](sort.country)
     - How is the weather
-    - How is the weather in [Asia](sort.city) [Christmas Island](sort.country)
-    - How is the weather in [Atbara](sort.city) [England](sort.country)
-    - How is the weather in [Bari Sādri](sort.city) [Bermuda](sort.country)
-    - How is the weather in [Gura Humorului](sort.city) [Zimbabwe](sort.country)
-    - How is the weather in [Jatiwangi](sort.city) [Finland](sort.country)
-    - How is the weather in [Kardítsa](sort.city) [Kosovo](sort.country)
-    - How is the weather in [Libreville](sort.city) [Morocco](sort.country)
-    - How is the weather in [Spenge](sort.city) [United States](sort.country)
-    - How is the weather in [Tāngāil](sort.city) [Azerbaijan](sort.country)
-    - How is the weather in [Vendôme](sort.city) [Dominica](sort.country)
-    - How is the weather in [Akbarpur](sort.city) [Denmark](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - How is the weather in [Apatity](sort.city) [Ireland](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - How is the weather in [Boppard](sort.city) [Spain](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - How is the weather in [Ishii](sort.city) [Cyprus](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - How is the weather in [Konch](sort.city) [Mauritania](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - How is the weather in [Marktoberdorf](sort.city) [Bermuda](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - How is the weather in [Porto Torres](sort.city) [Burkina Faso](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - How is the weather in [Rio Brilhante](sort.city) [Lesotho](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - How is the weather in [Tahla](sort.city) [Argentine Republic](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - How is the weather in [Úbeda](sort.city) [Paraguay](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - How is the weather in [Barquisimeto](sort.city) [Iran](sort.country)
+    - How is the weather in [Brezno](sort.city) [Iran](sort.country)
+    - How is the weather in [Chorley](sort.city) [Maldives](sort.country)
+    - How is the weather in [Ercolano](sort.city) [Sierra Leone](sort.country)
+    - How is the weather in [Goodlands](sort.city) [Czechia](sort.country)
+    - How is the weather in [Gūduvāncheri](sort.city) [El Salvador](sort.country)
+    - How is the weather in [Heide](sort.city) [Luxembourg](sort.country)
+    - How is the weather in [Lichtenrade](sort.city) [San Marino](sort.country)
+    - How is the weather in [Martigues](sort.city) [United Kingdom](sort.country)
+    - How is the weather in [‘Ajlūn](sort.city) [Hong Kong](sort.country)
     - How cold is the weather
+    - How cold is the weather in [Baturaden](sort.city) [India](sort.country)
+    - How cold is the weather in [Baymak](sort.city) [Philippines](sort.country)
+    - How cold is the weather in [Günzburg](sort.city) [Philippines](sort.country)
+    - How cold is the weather in [Kafir Qala](sort.city) [Burkina Faso](sort.country)
+    - How cold is the weather in [Kamphaeng Phet](sort.city) [Hong Kong](sort.country)
+    - How cold is the weather in [Le Vésinet](sort.city) [United Kingdom](sort.country)
+    - How cold is the weather in [Maracaibo](sort.city) [Mongolia](sort.country)
+    - How cold is the weather in [Pawāyan](sort.city) [British Virgin Islands](sort.country)
+    - How cold is the weather in [Walla Walla](sort.city) [Guatemala](sort.country)
+    - How cold is the weather in [Şanlıurfa](sort.city) [Vanuatu](sort.country)
     - I want to know the weather
-    - I want to know the weather in [Agboville](sort.city) [South Sudan](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - I want to know the weather in [Buhuşi](sort.city) [Republic of Korea](sort.country) in [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - I want to know the weather in [Dniprorudne](sort.city) [Guam](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - I want to know the weather in [Frisco](sort.city) [Burkina Faso](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - I want to know the weather in [Jobabo](sort.city) [Kosovo](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - I want to know the weather in [Lloydminster](sort.city) [Luxembourg](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - I want to know the weather in [Pavlovsk](sort.city) [Lebanon](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - I want to know the weather in [Risca](sort.city) [Malawi](sort.country) in [imperial]{"entity": "sort.unit", "value": "individual.imperial"}
-    - I want to know the weather in [Tías](sort.city) [Pakistan](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
-    - I want to know the weather in [Wassenberg](sort.city) [Réunion](sort.country) in [standard]{"entity": "sort.unit", "value": "individual.standard"}
+    - I want to know the weather in [El Vigía](sort.city) [Honduras](sort.country)
+    - I want to know the weather in [João Câmara](sort.city) [Gambia](sort.country)
+    - I want to know the weather in [Jumilla](sort.city) [Finland](sort.country)
+    - I want to know the weather in [Las Tunas](sort.city) [Czechia](sort.country)
+    - I want to know the weather in [Noblesville](sort.city) [Christmas Island](sort.country)
+    - I want to know the weather in [Ravensburg](sort.city) [Liberia](sort.country)
+    - I want to know the weather in [Renigunta](sort.city) [Equatorial Guinea](sort.country)
+    - I want to know the weather in [Rānāvāv](sort.city) [Kiribati](sort.country)
+    - I want to know the weather in [Starnberg](sort.city) [Bhutan](sort.country)
+    - I want to know the weather in [Urbandale](sort.city) [Angola](sort.country)
     - Can you tell me about the weather
-    - How hot is it in [Butzbach](sort.city) [Azerbaijan](sort.country)
-    - How hot is it in [Colatina](sort.city) [Seychelles](sort.country)
-    - How hot is it in [Garoua](sort.city) [Malawi](sort.country)
-    - How hot is it in [Gribanovskiy](sort.city) [Antarctica](sort.country)
-    - How hot is it in [Kotel’nich](sort.city) [Nigeria](sort.country)
-    - How hot is it in [Qarah Ẕīā’ od Dīn](sort.city) [Central African Republic](sort.country)
-    - How hot is it in [San Pedro](sort.city) [Papua New Guinea](sort.country)
-    - How hot is it in [São Mateus do Sul](sort.city) [Vietnam](sort.country)
-    - How hot is it in [Timmins](sort.city) [Singapore](sort.country)
-    - How hot is it in [Trujillo](sort.city) [El Salvador](sort.country)
-    - Fetch the weather in [Baharampur](sort.city) [Niue](sort.country)
-    - Fetch the weather in [Bishops Stortford](sort.city) [Germany](sort.country)
-    - Fetch the weather in [Clacton-on-Sea](sort.city) [Turks and Caicos Islands](sort.country)
-    - Fetch the weather in [Fréjus](sort.city) [Chile](sort.country)
-    - Fetch the weather in [Gijang](sort.city) [Denmark](sort.country)
-    - Fetch the weather in [Migori](sort.city) [Togolese Republic](sort.country)
-    - Fetch the weather in [Nyalikungu](sort.city) [Indonesia](sort.country)
-    - Fetch the weather in [Prakhon Chai](sort.city) [Angola](sort.country)
-    - Fetch the weather in [Tianjin](sort.city) [Uruguay](sort.country)
-    - Fetch the weather in [Young](sort.city) [Myanmar](sort.country)
+    - Can you tell me about the weather in [Barcelos](sort.city) [Kuwait](sort.country)
+    - Can you tell me about the weather in [Chillán](sort.city) [Colombia](sort.country)
+    - Can you tell me about the weather in [Gauting](sort.city) [Britain](sort.country)
+    - Can you tell me about the weather in [Kribi](sort.city) [Tuvalu](sort.country)
+    - Can you tell me about the weather in [Lacey](sort.city) [Afghanistan](sort.country)
+    - Can you tell me about the weather in [Paks](sort.city) [Argentina](sort.country)
+    - Can you tell me about the weather in [Plettenberg Bay](sort.city) [Hungary](sort.country)
+    - Can you tell me about the weather in [Rypin](sort.city) [Nauru](sort.country)
+    - Can you tell me about the weather in [Unión de Reyes](sort.city) [Vietnam](sort.country)
+    - Can you tell me about the weather in [Yemva](sort.city) [Timor-Leste](sort.country)
+    - How hot is it
+    - How hot is it in [Al ‘Azīzīyah](sort.city) [United States of America](sort.country)
+    - How hot is it in [Athlone](sort.city) [Georgia](sort.country)
+    - How hot is it in [Gürsu](sort.city) [Swaziland](sort.country)
+    - How hot is it in [Hutang](sort.city) [Mongolia](sort.country)
+    - How hot is it in [Mwene-Ditu](sort.city) [Slovak Republic](sort.country)
+    - How hot is it in [Nuwara Eliya](sort.city) [Guatemala](sort.country)
+    - How hot is it in [Puerto Tejada](sort.city) [Kuwait](sort.country)
+    - How hot is it in [Saint-Denis](sort.city) [Cameroon](sort.country)
+    - How hot is it in [Santiago del Torno](sort.city) [Togolese Republic](sort.country)
+    - How hot is it in [Tivoli](sort.city) [Vatican](sort.country)
+    - Fetch me the weather in
+    - Fetch me the weather in [Bangkok](sort.city) [Bolivia](sort.country)
+    - Fetch me the weather in [Bīrpur](sort.city) [Sudan](sort.country)
+    - Fetch me the weather in [Darbhanga](sort.city) [Germany](sort.country)
+    - Fetch me the weather in [Durham](sort.city) [Turkmenistan](sort.country)
+    - Fetch me the weather in [Fuqing](sort.city) [Falkland Islands](sort.country)
+    - Fetch me the weather in [Kirishi](sort.city) [Cyprus](sort.country)
+    - Fetch me the weather in [Matsubara](sort.city) [Portuguese Republic](sort.country)
+    - Fetch me the weather in [Midelt](sort.city) [Myanmar](sort.country)
+    - Fetch me the weather in [Saint Clair Shores](sort.city) [Guyana](sort.country)
+    - Fetch me the weather in [Sandanski](sort.city) [Grenada](sort.country)
     - I would like to know about the weather
+    - I would like to know about the weather in [Ahmadpur East](sort.city) [Curacao](sort.country)
+    - I would like to know about the weather in [Arrecife](sort.city) [Bolivia](sort.country)
+    - I would like to know about the weather in [Camarate](sort.city) [Aruba](sort.country)
+    - I would like to know about the weather in [Gangtok](sort.city) [Cayman Islands](sort.country)
+    - I would like to know about the weather in [Jining](sort.city) [Fiji](sort.country)
+    - I would like to know about the weather in [Mejorada del Campo](sort.city) [Italy](sort.country)
+    - I would like to know about the weather in [Pierrefitte-sur-Seine](sort.city) [Guadeloupe](sort.country)
+    - I would like to know about the weather in [Pradera](sort.city) [Nepal](sort.country)
+    - I would like to know about the weather in [Rantepao](sort.city) [Swaziland](sort.country)
+    - I would like to know about the weather in [Sorocaba](sort.city) [Armenia](sort.country)
+    - Tell me about the weather
+    - Tell me about the weather in [Becontree](sort.city) [United States of America](sort.country)
+    - Tell me about the weather in [Cesano Maderno](sort.city) [Portuguese Republic](sort.country)
+    - Tell me about the weather in [Des Moines](sort.city) [Palau](sort.country)
+    - Tell me about the weather in [Digri](sort.city) [Mexico](sort.country)
+    - Tell me about the weather in [Ngunut](sort.city) [Democratic People's Republic of Korea](sort.country)
+    - Tell me about the weather in [Ortaca](sort.city) [New Zealand](sort.country)
+    - Tell me about the weather in [Polohy](sort.city) [Gabonese Republic](sort.country)
+    - Tell me about the weather in [Ponta Grossa](sort.city) [Kenya](sort.country)
+    - Tell me about the weather in [Yasothon](sort.city) [Philippines](sort.country)
+    - Tell me about the weather in [Çarşamba](sort.city) [Tonga](sort.country)
+    - What kind of weather is it
+    - What kind of weather is it in [Baden-Baden](sort.city) [Cambodia](sort.country)
+    - What kind of weather is it in [Desē](sort.city) [Uganda](sort.country)
+    - What kind of weather is it in [Estrela](sort.city) [Canada](sort.country)
+    - What kind of weather is it in [General Escobedo](sort.city) [Abkhazia](sort.country)
+    - What kind of weather is it in [Jāsim](sort.city) [Malawi](sort.country)
+    - What kind of weather is it in [Mingyue](sort.city) [Tajikistan](sort.country)
+    - What kind of weather is it in [Palín](sort.city) [Antigua and Barbuda](sort.country)
+    - What kind of weather is it in [Rivera](sort.city) [Estonia](sort.country)
+    - What kind of weather is it in [Shengli](sort.city) [France](sort.country)
+    - What kind of weather is it in [Shirhatti](sort.city) [Greece](sort.country)
+    - What is the weather like
+    - What is the weather like in [Aldan](sort.city) [Guyana](sort.country)
+    - What is the weather like in [Beloha](sort.city) [Panama](sort.country)
+    - What is the weather like in [Dārayyā](sort.city) [Indonesia](sort.country)
+    - What is the weather like in [Friedenau](sort.city) [Northern Mariana Islands](sort.country)
+    - What is the weather like in [Itaguaí](sort.city) [Belgium](sort.country)
+    - What is the weather like in [Luxor](sort.city) [Malaysia](sort.country)
+    - What is the weather like in [Norak](sort.city) [Australia](sort.country)
+    - What is the weather like in [Ribeirão da Ilha](sort.city) [Grenada](sort.country)
+    - What is the weather like in [Saravia](sort.city) [Jersey](sort.country)
+    - What is the weather like in [Sayula](sort.city) [Vatican](sort.country)
 
 - intent: answer
   examples: |
@@ -188,70 +429,106 @@ nlu:
     - [farenheit]{"entity": "sort.unit", "value": "individual.imperial"}
     - [standard]{"entity": "sort.unit", "value": "individual.standard"}
     - [kelvin]{"entity": "sort.unit", "value": "individual.standard"}
-    - [Valongo](sort.city)
-    - [Carcassonne](sort.city)
-    - [Huacho](sort.city)
-    - [Suozhen](sort.city)
-    - [Belfast](sort.city)
-    - [Punta Cana](sort.city)
-    - [La Maná](sort.city)
-    - [Kāman](sort.city)
-    - [Namur](sort.city)
-    - [Quimper](sort.city)
-    - [Burundi](sort.country)
-    - [New Caledonia](sort.country)
-    - [Papua New Guinea](sort.country)
+    - [Tinghir](sort.city)
+    - [Potosí](sort.city)
+    - [Ciudad Madero](sort.city)
+    - [Qandala](sort.city)
+    - [Eckernförde](sort.city)
+    - [Andradina](sort.city)
+    - [Balsas](sort.city)
+    - [Pāloncha](sort.city)
+    - [Khān Yūnis](sort.city)
+    - [Pasān](sort.city)
+    - [Russia](sort.country)
+    - [Yemen](sort.country)
+    - [Montenegro](sort.country)
+    - [Bulgaria](sort.country)
+    - [Niue](sort.country)
+    - [Isle of Man](sort.country)
+    - [Botswana](sort.country)
+    - [Christmas Island](sort.country)
+    - [Mali](sort.country)
     - [Tunisia](sort.country)
-    - [Venezuela](sort.country)
-    - [Réunion](sort.country)
-    - [Sri Lanka](sort.country)
-    - [Uruguay](sort.country)
-    - [Niger](sort.country)
-    - [Albania](sort.country)
-    - [Balş](sort.city) [Antarctica](sort.country)
-    - [Denizli](sort.city) [Albania](sort.country)
-    - [Goribidnūr](sort.city) [Georgia](sort.country)
-    - [Hinjilikatu](sort.city) [Romania](sort.country)
-    - [Jindřichův Hradec](sort.city) [Burma](sort.country)
-    - [Mallasamudram](sort.city) [Cuba](sort.country)
-    - [Nantou](sort.city) [Kenya](sort.country)
-    - [Ngawi](sort.city) [Pakistan](sort.country)
-    - [Ridder](sort.city) [Scotland](sort.country)
-    - [Tuxtepec](sort.city) [Guyana](sort.country)
-    - [An Nāşirīyah](sort.city), [Moldova](sort.country)
-    - [Asyūţ](sort.city), [Cook Islands](sort.country)
-    - [Brawley](sort.city), [Mauritania](sort.country)
-    - [Chāndūr Bāzār](sort.city), [Indonesia](sort.country)
-    - [Ipinda](sort.city), [United States of America](sort.country)
-    - [Kalāt](sort.city), [Cook Islands](sort.country)
-    - [Novoural’sk](sort.city), [Netherlands](sort.country)
-    - [Seondha](sort.city), [United States of America](sort.country)
-    - [Trairi](sort.city), [Lithuania](sort.country)
-    - [Waiblingen](sort.city), [Ivory Coast](sort.country)
-    - In [Ermitagaña](sort.city), [Tuvalu](sort.country)
-    - In [Kirtipur](sort.city), [Brazil](sort.country)
-    - In [Naujamiestis](sort.city), [Russia](sort.country)
-    - In [Naukot](sort.city), [Azerbaijan](sort.country)
-    - In [Palikir - National Government Center](sort.city), [Mozambique](sort.country)
-    - In [Rosny-sous-Bois](sort.city), [Uganda](sort.country)
-    - In [San Pedro](sort.city), [Bhutan](sort.country)
-    - In [Serov](sort.city), [Bhutan](sort.country)
-    - In [Ulyanovsk](sort.city), [Nauru](sort.country)
-    - In [Viña del Mar](sort.city), [Australia](sort.country)
+    - In [Alcalde Díaz](sort.city)
+    - In [Cesenatico](sort.city)
+    - In [Inawashiro](sort.city)
+    - In [Karād](sort.city)
+    - In [Pago Pago](sort.city)
+    - In [Pekan Nenas](sort.city)
+    - In [Poonamalle](sort.city)
+    - In [Umuarama](sort.city)
+    - In [Yichun](sort.city)
+    - In [Šumperk](sort.city)
+    - In [Abkhazia](sort.country)
+    - In [Cook Islands](sort.country)
+    - In [Falkland Islands](sort.country)
+    - In [Great Britain](sort.country)
+    - In [Iceland](sort.country)
+    - In [Kenya](sort.country)
+    - In [Senegal](sort.country)
+    - In [Solomon Islands](sort.country)
+    - In [Thailand](sort.country)
+    - In [Tonga](sort.country)
+    - [Billings](sort.city) [Algeria](sort.country)
+    - [Biloxi](sort.city) [Lebanon](sort.country)
+    - [Bloomingdale](sort.city) [Grenada](sort.country)
+    - [Heilbad Heiligenstadt](sort.city) [Guinea](sort.country)
+    - [Juliaca](sort.city) [Philippines](sort.country)
+    - [Passo Fundo](sort.city) [Ghana](sort.country)
+    - [Patāmundai](sort.city) [Tonga](sort.country)
+    - [Petrovsk](sort.city) [Lebanon](sort.country)
+    - [Salzwedel](sort.city) [Swaziland](sort.country)
+    - [Sarankhola](sort.city) [Myanmar](sort.country)
+    - In [Anūpshahr](sort.city) [Vatican](sort.country)
+    - In [Ash Shuhadā’](sort.city) [Falkland Islands](sort.country)
+    - In [Bah-Bah](sort.city) [Eritrea](sort.country)
+    - In [Barbacha](sort.city) [Kazakhstan](sort.country)
+    - In [Klerksdorp](sort.city) [Mozambique](sort.country)
+    - In [Mataram](sort.city) [Belize](sort.country)
+    - In [Muborak](sort.city) [United Arab Emirates](sort.country)
+    - In [Mīāndoāb](sort.city) [Myanmar](sort.country)
+    - In [Nanchong](sort.city) [Montenegro](sort.country)
+    - In [Waalwijk](sort.city) [Puerto Rico](sort.country)
+    - [Beloyarskiy](sort.city), [Dominican Republic](sort.country)
+    - [Cluses](sort.city), [Maldives](sort.country)
+    - [De Aar](sort.city), [Christmas Island](sort.country)
+    - [Hallandale Beach](sort.city), [Guinea](sort.country)
+    - [Kelheim](sort.city), [Ireland](sort.country)
+    - [Mayfield Heights](sort.city), [Cuba](sort.country)
+    - [Neuwied](sort.city), [Britain](sort.country)
+    - [Rancho Cucamonga](sort.city), [Solomon Islands](sort.country)
+    - [Sampaloc](sort.city), [Estonia](sort.country)
+    - [Zacatecas](sort.city), [Russia](sort.country)
+    - In [Bengaluru](sort.city), [France](sort.country)
+    - In [Cepu](sort.city), [Trinidad and Tobago](sort.country)
+    - In [Cole Harbour](sort.city), [Ireland](sort.country)
+    - In [Fatehgarh Chūriān](sort.city), [Christmas Island](sort.country)
+    - In [Marburg an der Lahn](sort.city), [Northern Mariana Islands](sort.country)
+    - In [Mwene-Ditu](sort.city), [Gambia](sort.country)
+    - In [Olbia](sort.city), [Georgia](sort.country)
+    - In [Pisz](sort.city), [South Sudan](sort.country)
+    - In [Ronchin](sort.city), [Netherlands](sort.country)
+    - In [Shushi](sort.city), [Christmas Island](sort.country)
     - yes [single](sort.string)
     - yes [metric]{"entity": "sort.unit", "value": "individual.metric"}
-    - yes [Belfast](sort.city)
-    - yes [Venezuela](sort.country)
-    - yes [Jindřichův Hradec](sort.city) [Burma](sort.country)
-    - yes [Ipinda](sort.city), [United States of America](sort.country)
-    - yes In [Palikir - National Government Center](sort.city), [Mozambique](sort.country)
+    - yes [Eckernförde](sort.city)
+    - yes [Niue](sort.country)
+    - yes In [Pago Pago](sort.city)
+    - yes In [Iceland](sort.country)
+    - yes [Juliaca](sort.city) [Philippines](sort.country)
+    - yes In [Klerksdorp](sort.city) [Mozambique](sort.country)
+    - yes [Kelheim](sort.city), [Ireland](sort.country)
+    - yes In [Marburg an der Lahn](sort.city), [Northern Mariana Islands](sort.country)
     - no [double word](sort.string)
     - no [celsius]{"entity": "sort.unit", "value": "individual.metric"}
-    - no [Punta Cana](sort.city)
-    - no [Réunion](sort.country)
-    - no [Mallasamudram](sort.city) [Cuba](sort.country)
-    - no [Kalāt](sort.city), [Cook Islands](sort.country)
-    - no In [Rosny-sous-Bois](sort.city), [Uganda](sort.country)
+    - no [Andradina](sort.city)
+    - no [Isle of Man](sort.country)
+    - no In [Pekan Nenas](sort.city)
+    - no In [Kenya](sort.country)
+    - no [Passo Fundo](sort.city) [Ghana](sort.country)
+    - no In [Mataram](sort.city) [Belize](sort.country)
+    - no [Mayfield Heights](sort.city), [Cuba](sort.country)
+    - no In [Mwene-Ditu](sort.city), [Gambia](sort.country)
 
 - intent: answer_negation
   examples: |
@@ -261,26 +538,26 @@ nlu:
     - not [farenheit]{"entity": "sort.unit", "value": "individual.imperial"}
     - not [standard]{"entity": "sort.unit", "value": "individual.standard"}
     - not [kelvin]{"entity": "sort.unit", "value": "individual.standard"}
-    - not [Chaman](sort.city)
-    - not [Tepotzotlán](sort.city)
-    - not [Coondapoor](sort.city)
-    - not [Jelcz Laskowice](sort.city)
-    - not [Spanish Fork](sort.city)
-    - not [Harburg](sort.city)
-    - not [Sultangazi](sort.city)
-    - not [Pankshin](sort.city)
-    - not [Chhota Udepur](sort.city)
-    - not [North Guwāhāti](sort.city)
-    - not [Iceland](sort.country)
-    - not [Hungaria](sort.country)
+    - not [Berasia](sort.city)
+    - not [Porto União](sort.city)
+    - not [Itatinga](sort.city)
+    - not [Dod Ballāpur](sort.city)
+    - not [Franklin Square](sort.city)
+    - not [Bilāspur](sort.city)
+    - not [Gentilly](sort.city)
+    - not [Baldwin](sort.city)
+    - not [Velikiye Luki](sort.city)
+    - not [Bicester](sort.city)
+    - not [Czech Republic](sort.country)
     - not [Kosovo](sort.country)
-    - not [Guyana](sort.country)
-    - not [Guernsey](sort.country)
-    - not [Lesotho](sort.country)
-    - not [Guadeloupe](sort.country)
-    - not [Switzerland](sort.country)
-    - not [Martinique](sort.country)
-    - not [Algeria](sort.country)
+    - not [Somalia](sort.country)
+    - not [Bolivia](sort.country)
+    - not [Namibia](sort.country)
+    - not [Tanzania](sort.country)
+    - not [Réunion](sort.country)
+    - not [Anguilla](sort.country)
+    - not [Democratic People's Republic of Korea](sort.country)
+    - not [Yemen](sort.country)
 
 - intent: NEGATIVE
   examples: |

@@ -21,12 +21,6 @@
     </one-of>
   </action>
 
-  <!-- <action name="get_the_temperature">
-    <one-of>
-      <item>What is the temperature</item>
-      <item>How much is the temperature</item>
-    </one-of>
-  </action> -->
 
   <individual name="city_damascus">Damascus</individual>
   <individual name="city_hannover">Hannover</individual>
@@ -36,7 +30,6 @@
   <individual name="city_riyadh">Riyadh</individual>
   <individual name="city_london">London</individual>
   <individual name="city_gothenburg">Gothenburg</individual>
-
 
 
   <individual name="country_syria">Syria</individual>
@@ -81,16 +74,8 @@
     The weather is <slot predicate="current_weather"/>
   </answer>
 
-  <answer speaker="user" predicate="selected_city">
-    <one-of>
-      <item> <slot predicate="selected_city"/> <slot predicate="selected_country"/> </item>
-      <item> <slot predicate="selected_city"/>, <slot predicate="selected_country"/> </item>
-      <item>In <slot predicate="selected_city"/>, <slot predicate="selected_country"/> </item>
-    </one-of>
-  </answer>
-
-  <question speaker="all" predicate="current_temperature">the temperature</question>
-  <question speaker="all" predicate="current_weather">the weather</question>
+  <question speaker="all" predicate="current_temperature"> about the temperature </question>
+  <question speaker="all" predicate="current_weather"> the current weather </question>
   
   <question speaker="system" predicate="selected_city" type="wh_question">In what city</question>
 
@@ -100,39 +85,91 @@
   <question speaker="user" predicate="current_temperature" type="wh_question">
     <one-of>
       <item>What is the temperature</item>
+      <item>What is the temperature in <slot predicate="preferred_unit"/> </item>
       <item>What is the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>What is the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
       <item>How much is the temperature</item>
-      <item>How much is temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>  How much is the temperature in <slot predicate="preferred_unit" /></item>  
+      <item>How much is the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
       <item>How much is the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
       <item>Can you give me the temperature</item>
+
+      <item>Can you give me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
       <item>Can you give me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
       <item>Fetch me the temperature</item>
+      <item>Fetch me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>Fetch me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
       <item>Get the temperature</item>
+      <item>Get the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
       <item>Get the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
       <item>I want to know the temperature</item>
+      <item>I want to know the temperature in <slot predicate="selected_city"/><slot predicate="selected_country"/></item>
+      <item>I want to know the temperature in <slot predicate="selected_city"/><slot predicate="selected_country"/>in <slot predicate="preferred_unit" /></item>
       <item>Do you happen to know the temperature</item>
+      <item>Do you happen to know the temperature in <slot predicate="preferred_unit"/></item>
       <item>Do you happen to know the temperature in <slot predicate="selected_city" /> <slot predicate="selected_country" /></item>
-      <item>Fetch me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>Do you happen to know the temperature in <slot predicate="selected_city"/><slot predicate="selected_country"/>in <slot predicate="preferred_unit" /></item>
+      <item>I would like to know the temperature </item>
+      <item>I would like to know the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> </item>
+      <item>I would like to know the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+      <item>Give me the temperature</item>
+      <item>Give me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>Give me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+      <item>Could you tell me the temperature </item>
+      <item>Could you tell me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> </item>
+      <item>Could you tell me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+      <item>Tell me the temperature </item>
+      <item>Tell me the temperature in <slot predicate="preferred_unit"/></item>
+      <item>Tell me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> </item>
+      <item>Tell me the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+      <item>I need to know the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+      <item>I need to know the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+      <item>I need to know the temperature in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+
     </one-of>
   </question>
 
   <question speaker="user" predicate="current_weather" type="wh_question">
     <one-of>
       <item>Decribe the weather</item>
-      <item>Decribe the weather <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+      <item>Decribe the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/> </item>
+      <item>Do you happen to know the weather </item>
       <item>Do you happen to know the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>How would you describe the weather </item>
       <item>How would you describe the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
       <item>How is the weather</item>
       <item>How is the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
-      <item>How is the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
       <item>How cold is the weather</item>
+      <item>How cold is the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
       <item>I want to know the weather</item>
-      <item>I want to know the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/> in <slot predicate="preferred_unit"/></item>
+      <item>I want to know the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/> </item>
       <item>Can you tell me about the weather</item>
+      <item>Can you tell me about the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>How hot is it </item>
       <item>How hot is it in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
-      <item>Fetch the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>Fetch me the weather in </item>
+      <item>Fetch me the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
       <item>I would like to know about the weather</item>
+      <item>I would like to know about the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>Tell me about the weather </item>
+      <item>Tell me about the weather in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>What kind of weather is it </item>
+      <item>What kind of weather is it in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+      <item>What is the weather like </item>
+      <item>What is the weather like in <slot predicate="selected_city"/> <slot predicate="selected_country"/></item>
+
     </one-of>
+  
   </question>
+    <answer speaker="user">
+    <one-of>
+      <item>In <slot predicate="selected_city"/></item>
+      <item>In <slot predicate="selected_country"/></item>
+      <item> <slot predicate="selected_city"/> <slot predicate="selected_country"/> </item>
+      <item>In <slot predicate="selected_city"/> <slot predicate="selected_country"/> </item>
+      <item> <slot predicate="selected_city"/>, <slot predicate="selected_country"/> </item>
+      <item>In <slot predicate="selected_city"/>, <slot predicate="selected_country"/> </item>
+    </one-of>
+  </answer>
 
 </grammar>

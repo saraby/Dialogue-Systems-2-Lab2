@@ -42,4 +42,5 @@ U> Can you tell me about the weather
 S> In what city?
 U> Gothenburg Sweden
 S> The weather is *.
+U> Thank you
 

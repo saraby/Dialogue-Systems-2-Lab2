@@ -133,3 +133,9 @@ grammar/build/
 .tala/
 logs/
 .idea/
+.DS_Store
+test.py
+rasa-nlu/.stignore
+rasa-nlu/config-eng.yml
+rasa-nlu/okteto.yml
+rasa-nlu/train.py
